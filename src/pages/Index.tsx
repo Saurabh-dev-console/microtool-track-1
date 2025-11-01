@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { ToolCard } from "@/components/ToolCard";
 import { tools, categories } from "@/data/tools";
 import { Input } from "@/components/ui/input";
@@ -79,6 +80,8 @@ const Index = () => {
           </div>
         )}
       </main>
+
+      <Footer />
     </div>
   );
 };

@@ -19,7 +19,19 @@ export const Header = () => {
             to="/" 
             className="text-sm font-medium text-foreground hover:text-primary transition-colors"
           >
-            All Tools
+            HOME
+          </Link>
+          <Link 
+            to="/about" 
+            className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+          >
+            ABOUT
+          </Link>
+          <Link 
+            to="/contact" 
+            className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+          >
+            CONTACT
           </Link>
         </nav>
       </div>
